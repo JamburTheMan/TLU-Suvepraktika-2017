@@ -44,5 +44,13 @@ h1, h2, h3, h4 {
 .post h1 a, .post h1 a:visited {
     color: #000000;
 }
+.table-container {
+    display: block;
+    height: 514px;
+    width: 100%;
+    overflow-y: scroll;
+	overflow-x: hidden;
+    table-layout: fixed; !important;
+}
 
 
